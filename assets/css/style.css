@@ -68,7 +68,6 @@ body {
 }
 
 .subheading {
-  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   font-size: 25px;
@@ -89,10 +88,6 @@ body {
   font-weight: bold;
 }
 
-.main-program {
-  color: #f7f7f9;
-}
-
 .text-center {
   text-align: center;
 }
@@ -102,10 +97,12 @@ body {
   margin-top: 100px;
   padding: 25px;
 }
+
 .container img {
   display: block;
   width: 100%;
 }
+
 nav {
   position: fixed;
   z-index: 10;
@@ -117,6 +114,7 @@ nav {
   height: 70px;
   background-color: #fff;
 }
+
 nav .logo {
   float: left;
   width: 40%;
@@ -126,6 +124,7 @@ nav .logo {
   font-size: 24px;
   color: #000;
 }
+
 nav .links {
   float: right;
   padding: 0;
@@ -136,9 +135,11 @@ nav .links {
   justify-content: space-around;
   align-items: center;
 }
+
 nav .links li {
   list-style: none;
 }
+
 nav .links .a {
   display: block;
   padding: 1em;
@@ -146,7 +147,6 @@ nav .links .a {
   text-decoration: none;
   cursor: pointer;
 }
-
 
 nav .links a.active {
   color: #ec5242;
@@ -190,6 +190,7 @@ nav .icon-burger .line {
   nav .logo {
     display: none;
   }
+
   nav .links {
     float: none;
     position: fixed;
@@ -212,27 +213,31 @@ nav .icon-burger .line {
 
   nav .links li {
     font-size: 22px;
-    font-size: bold;
+    font-weight: bold;
     color: white;
     padding-left: 20px;
   }
+
   nav :checked ~ .links {
     bottom: 0;
   }
+
   nav .icon-burger {
     display: block;
-    /* display: flex; */
     justify-content: flex-start;
     align-items: center;
     padding: 8px 10%;
     gap: 40px;
   }
+
   nav :checked ~ .icon-burger .line:nth-child(1) {
     transform: translateY(10px) rotate(225deg);
   }
+
   nav :checked ~ .icon-burger .line:nth-child(3) {
     transform: translateY(-10px) rotate(-225deg);
   }
+
   nav :checked ~ .icon-burger .line:nth-child(2) {
     opacity: 0;
   }
@@ -306,11 +311,6 @@ ul {
   gap: 20px;
 }
 
-.thumbnail {
-  height: 100px;
-  width: 100px;
-}
-
 .speaker-item div {
   margin-top: -40px;
 }
@@ -329,9 +329,11 @@ ul {
     padding: 16px;
     width: 150px;
   }
+
   nav .links {
     float: none;
   }
+
   nav {
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
   }
@@ -349,7 +351,7 @@ ul {
   .featured-speaker {
     align-items: center;
   }
-  
+
   .speaker-list {
     grid-template-columns: 50% 50%;
     grid-row-gap: 48px;
