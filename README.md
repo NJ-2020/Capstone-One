@@ -1,22 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project: Portfolio
+# Project: Capstone One
 
-> This project is a Microverse task to build personal portfolio, to parse a Figma design, use Flexbox and CSS Grid to place elements in the page.  It covers html and css and applying linters on each of them.
+> This project is a Microverse task to build Capstone, to parse a Figma design, use Flexbox and CSS Grid to place elements in the page and make responsive.  It covers html, css javascript and applying linters on each of them.
 
 ![screenshot](screenshot.jpeg)
 
 New additions:
 
-* Using pair programming: evaluate, report and correct the accessibility for page titles, image text alternatives, text headings, color contrast, resize, interaction, moving content, multimedia and the basic structure of the page
+* Solo programming: evaluate, report and correct the accessibility for page titles, image text alternatives, text headings, color contrast, resize, interaction, moving content, multimedia and the basic structure of the page
 
 ## Built With
 
-- Html + Css
+- Html + Css + Js
 
 ## Live Demo Of The Project
 
-https://nj-2020.github.io/My-Portfolio-Web-Designs/
+No live demo
 
 ### Usage
 
@@ -43,13 +43,13 @@ Make a pull request if you want to contribute. Thanks.
 
 ## Authors
 
-👤 **NJ-2020**
+👤 **Novell (NJ-2020)**
 
 - GitHub: [NJ](https://github.com/NJ-2020)
 
-👤 **AkashaRojee**
+👤 ****
 
-- GitHub: [AkashaRojee](https://github.com/AkashaRojee)
+- GitHub: []()
 
 ## 🤝 Contributing
 

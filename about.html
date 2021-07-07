@@ -4,81 +4,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Capstone</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Capstone About</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Font Awesome CDN -->
     <script
       src="https://kit.fontawesome.com/c26b883059.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <nav>
-      <input id="nav-toggle" type="checkbox" />
-      <div class="logo">
-        <a href="index.html"><strong>LOGO</strong></a>
-      </div>
-      <ul class="links">
-        <li><a class="active" href="about.html">About</a></li>
-        <li><a href="index.html">Program</a></li>
-        <li><a href="#join">Join</a></li>
-        <li><a href="#sponsor">Sponsor</a></li>
-        <li><a href="#news">News</a></li>
-        <li class="nav-item">
-          <a class="join-nav-button bd-primary" href="#campaign">CC Campaign</a>
-        </li>
-      </ul>
-      <div class="icon-burger nav-toggle">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-    </nav>
+  <body id="body">
+    <header>
+      <nav class="top-bar">
+        <div class="social-icons">
+          <a href="https://web.facebook.com"
+            ><i class="fab fa-facebook-f color-white" aria-hidden="true"></i
+          ></a>
+          <a href="https://twitter.com"
+            ><i class="fab fa-twitter color-white" aria-hidden="true"></i
+          ></a>
+        </div>
+        <ul class="bar-actions">
+          <li><button type="button">Logout</button></li>
+          <li><button type="button">My Page</button></li>
+          <li><button type="button">English</button></li>
+        </ul>
+      </nav>
 
+      <nav class="navbar">
+        <h1><a href="index.html" class="navbar-logo"><img src="./images/Frame 62.svg" alt=""></a></h1>
+
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="about.html" class="nav-links active">About</a></li>
+          <li><a href="index.html" class="nav-links">Program</a></li>
+          <li><a href="#join" class="nav-links">Join</a></li>
+          <li><a href="#sponsor" class="nav-links">Sponsor</a></li>
+          <li>
+            <a href="#campaign" class="nav-links nav-links-btn">CC Campaign</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End of Navbar -->
+
+    <!-- Main about -->
     <div class="container">
       <div class="row">
-        <div class="headline text-center">
-          <h1 class="h-1 color-primary">
+        <div class="special-color">
+          <h1 class="heading-1 color-primary">
             CREATIVE COMMONS <br />
-            GLOBAL SUMMIT <br />
-            2015
+            GLOBAL SUMMIT 2015
           </h1>
-          <p class="text-center box text-about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magnam eos repellendus eligendi sint quaerat. At ipsum dolores qui enim quisquam? Veniam suscipit, error consequatur excepturi adipisci maxime doloribus quidem.
-          </p>
+        </div>
+        <hr class="line" />
+        <p class="box-about">
+          The Global Summit brings together the community of experts,academics,
+          and activists who comprise the Creative Commons affiliate network in a
+          different country every two years. This year, we hope to expand our
+          invitation list including organizations and individuals who want to
+          work with us on shared projects that advance the cause of the Commons,
+          free culture and open knowledge. So if you're active and engaged in
+          the worlds of open content and knowledge - free software advocates,
+          Wikipedians, Open Knowledge, galleries, libraries, museums, archives,
+          governments and foundations, lawyers, and activists - we hope you'll
+          consider joining us this year to build a stonger, more vibrant commons
+          together.
+        </p>
 
+        <div class="contact-text">
           <p>
-            <small
-              >Please contact us per Email for any further questions about
-              kuda</small
-            >
+            Please contact us per Email for any further questions about CC
+            Global Summit 2015!
           </p>
-          <p>
-            <small><strong>ntt.london@gmail.com</strong></small>
-          </p>
+          <p><strong>ntt.london@gmail.com</strong> ></p>
         </div>
-        <div class="logo-description text-center">
-          <h2>Creative Commons Global Summit 2015 Logo</h2>
-          <p class="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vel, illo repudiandae culpa maiores temporibus molestias labore. Vitae repellat mollitia doloremque similique. Laborum quos aspernatur veritatis cum, odio rem esse.
-          </p>
-          <div class="logo-about logo center bg-white">
-            <strong>LOGO</strong>
-          </div>
-        </div>
-        <hr class="hr" />
-        <aside class="past-conf bg-white">
-          <div class="content">
-            <h3 class="h-3 text-center color-secondary">
-              See the past CC Global Summits
-            </h3>
-            <div class="card"></div>
-          </div>
-        </aside>
       </div>
     </div>
 
-    <footer>@ Copyright By Novell 2021</footer>
+    <section class="about">
+      <h2 class="heading-2">Creative Commons Global Summit 2015 Logo</h2>
+      <hr class="line" />
+      <p>
+        The logo of CC Global Summit 2015 was decided through the logo
+        competition from 8.June to 7.July. After online public voting and
+        Selection Committee's judging process, the logo from Naresh Agrawal won
+        the prize. After consultation with Mr. Agrawal we optimized the
+        prize-winning-logo for this year's summit as following:
+      </p>
+      <div class="logo">
+        <img src="./images/Frame 63.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about-main">
+      <h3 class="heading-3">See the past CC Global Summits</h3>
+      <hr class="line" />
+      <p>
+        Take a look at the last two CC Global Summits which took placein Buenos
+        Aires and in Warsaw
+      </p>
+      <br />
+      <div class="content-about">
+        <div class="image-1">
+          <div class="content-about-img-bg-color">
+            <h2 class="year">2013</h2>
+            <h4 class="image-paragraph">
+              CC Global Summit 2013 in Buenos Aires
+            </h4>
+          </div>
+        </div>
+        <div class="image-2">
+          <div class="content-about-img-bg-color">
+            <h2 class="year">2011</h2>
+            <h4 class="image-paragraph">
+              CC Global Summit 2011 in Warsaw
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of footer -->
+    <footer class="footer">
+      <img src="./images/Group 69.svg" alt="">
+      <div class="p-footer">
+        <p>
+          2015 Creative Commons KoreaSome <br> Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="js/script.js"></script>
   </body>
 </html>
