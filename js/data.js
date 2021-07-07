@@ -5,50 +5,52 @@ const speakersobject = [
   {
     id: 12,
     image: 'images/img1.jpg',
-    name: 'Yochai Benkler',
+    name: 'Khadijah Mella',
     title:
-      'Berkman Professor of Entrepenurial Legal Studies at Harvard Law School',
+      'The best United Kingdom Jockey in 2020',
     description:
-      'Benkler studies commons-based peer production, andpublished his seminal book The Wealth of Networks in ',
+      'The best United Kingdom jockey.  Learns from scracth within only 6 weeks before winning',
   },
   {
     id: 12,
     image: 'images/img2.jpg',
-    name: 'Kilnam Chon',
+    name: 'Frankie Dettori',
+    title:
+      'The shy jockey who never loose the game unless if forget his horse behind him',
     description:
-      'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012, he was inducted into the inaugural class of the internet Society (ISOC) Internet Hall of Fame',
+      'This jockey never complaint in his entire life.  He walk away after winning, and ehen asked about his secret ingridient, his reply is: I will let you know later in private.  But he will never.',
   },
   {
     id: 13,
     image: 'images/img3.jpg',
-    name: 'SohYeong Noh',
-    title: 'Director of Art Center Nabi and a board member of CC Korea',
+    name: 'Nina Carberry',
+    title: 'The best Irland female jockey who eats chocale every day',
     description:
-      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among scient technology, humanities, and the arts.',
+      'Wins 5 times in a row.  Named As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among scient technology, humanities, and the arts.',
   },
   {
     id: 14,
     image: 'images/img4.jpg',
-    name: 'Julia Leda',
-    title: 'President of Young Pirates of Europe',
+    name: 'Oisin Murphy',
+    title: 'The best France jockey',
     description:
-      'Europen ingetration, political democray and participation of youth through online as her major condem, Redas report outlining potential changes to EU copyright law was approved by the Parliament in July.',
+      'Elected best jockey in Europen in 2015 and 2016.  He spends most his times drinking tea and eating dates to keep his fitness',
   },
   {
     id: 4,
     image: 'images/img5.jpg',
-    name: 'Lila Tretikov',
-    title: 'Executive Director of the Wikimedia Foundation',
+    name: 'Hamzah Jufri',
+    title: 'The best Indonesia jockey who sleeps only 3 hours a day!',
     description:
-      'Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 language and used by nearly half a billion people around the world every month.',
+      'Wins consecutively for 7 years in South East Asia but never takes the prize because he races just for fun.',
   },
   {
     id: 16,
     image: 'images/img6.jpg',
-    name: 'Ryan Merkley',
-    title: 'CEO of Create Commons, ex COO of the Mozilla Foundation',
+    name: 'Others',
+    title: 'Best of the best jockeys from the continent',
     description:
-      'Ryan had been leading open-source projects at the Mozilla Foundation such as the open source movement.',
+      'These jockeys they never joke but they always smile and laugh when others joke.  They dont drink coffee except if its free of charge',
   },
 ];
 

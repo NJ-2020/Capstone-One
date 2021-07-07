@@ -2,13 +2,17 @@
 
 # Project: Capstone One
 
-> This project is a Microverse task to build Capstone, to parse a Figma design, use Flexbox and CSS Grid to place elements in the page and make responsive.  It covers html, css javascript and applying linters on each of them.
+> This project is a Microverse capstone project.  It covers html, css, javascript and applying linters on each of them.  It is to demostrate my ability to create UIs adaptable to different screen sizes using media queries.
 
-![screenshot](screenshot.jpeg)
+![screenshot](screenshot.jpg)
 
 New additions:
 
-* Solo programming: evaluate, report and correct the accessibility for page titles, image text alternatives, text headings, color contrast, resize, interaction, moving content, multimedia and the basic structure of the page
+* Solo programming that covers: 
+- Use JavaScript to manipulate DOM elements and use JavaScript events.
+- Use objects to store and access data.
+- Use Flexbox to place elements in the page.
+- Use CSS selectors correctly.
 
 ## Built With
 
@@ -16,7 +20,7 @@ New additions:
 
 ## Live Demo Of The Project
 
-No live demo
+https://nj-2020.github.io/Capstone-One/
 
 ### Usage
 
@@ -56,5 +60,8 @@ Make a pull request if you want to contribute. Thanks.
 Contributions, issues, and feature requests are welcome!
 
 ## Show your support
+
+## Acknowledgments:
+This project does not potrait the real life.  It is only for learning purpose.  I clone this project from a web designed by Cindy Shin in Behance.  Hence, all credit should be given to him.
 
 Please. Give a ⭐️ if you like this project!
