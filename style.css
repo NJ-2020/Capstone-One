@@ -202,7 +202,7 @@ body.overflow-off {
   display: none;
 }
 
-.top-bar ul {
+.top-bar .ul {
   list-style: none;
 }
 
@@ -221,7 +221,6 @@ body.overflow-off {
 }
 
 .subheading-1 {
-  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   font-size: 25px;
@@ -244,10 +243,6 @@ body.overflow-off {
 .heading-4 {
   font-size: 16px;
   font-weight: bold;
-}
-
-.main-program {
-  color: #f7f7f9;
 }
 
 .text-center {
@@ -331,13 +326,13 @@ p {
   border-top: 2px solid #cecdcd;
 }
 
-.about hr {
+.about .hr {
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
 }
 
-.about-main hr {
+.about-main .hr {
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -381,7 +376,7 @@ p {
   background-image: url(images/orange1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-clip: text;
+  background-clip: padding-box;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -396,7 +391,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(236, 82, 66, 0.85);;
+  background-color: rgba(236, 82, 66, 0.85);
   top: 0;
   left: 0;
   width: 100%;
@@ -408,7 +403,7 @@ p {
 }
 
 .logo {
- margin-top: 30px;
+  margin-top: 30px;
 }
 
 .logo img {
@@ -521,11 +516,6 @@ p {
   line-height: 30px;
 }
 
-.thumbnail {
-  width: 100%;
-  max-width: 200px;
-}
-
 .card p {
   width: 500px;
 }
@@ -580,7 +570,6 @@ ul {
   color: #fff;
   padding: 30px;
   margin-top: 50px;
-  align-items: center;
 }
 
 .line-partner {
@@ -613,7 +602,7 @@ ul {
   color: #8c8c8e;
 }
 
-.logo-group-1 p {
+.logo-group-1 .p {
   margin-left: 10px;
 }
 
@@ -621,7 +610,7 @@ ul {
   font-size: 1.4rem;
 }
 
-footer img {
+footer .img {
   max-width: 160px;
 }
 
@@ -639,7 +628,7 @@ footer {
   color: white;
 }
 
-.footer p {
+.footer .p {
   margin-top: -5px;
 }
 
@@ -658,7 +647,7 @@ footer {
 
   .hero {
     background-color: rgb(245, 245, 245);
-    background-image: url('./images/main_big.png');
+    background-image: url("./images/main_big.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 10px 85px;
@@ -694,7 +683,7 @@ footer {
 
   .container {
     background-color: rgb(245, 245, 245);
-    background-image: url('./images/main_big.png');
+    background-image: url("./images/main_big.png");
     background-position: 0 30px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -761,7 +750,6 @@ footer {
     text-align: center;
     padding: 15px;
     margin: 2px;
-    text-align: center;
     cursor: pointer;
   }
 
@@ -789,8 +777,8 @@ footer {
   }
 
   .content-program .icon,
-  h2,
-  p {
+  .h2,
+  .p {
     margin-top: 15px;
   }
 
@@ -802,7 +790,7 @@ footer {
     margin: 0;
   }
 
-  .content-program h2 {
+  .content-program .h2 {
     margin: 10px 0;
     margin-top: -10px;
   }
