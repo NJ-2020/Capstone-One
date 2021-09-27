@@ -1,8 +1,7 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project: Capstone One
 
-> This project is a Microverse capstone project.  It covers html, css, javascript and applying linters on each of them.  It is to demostrate my ability to create UIs adaptable to different screen sizes using media queries.
+> This project is a Capstone project.  It covers html, css, javascript and applying linters on each of them.  It is to demostrate my ability to create UIs adaptable to different screen sizes using media queries.
 
 ![screenshot](screenshot.jpg)
 
